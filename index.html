@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="icon" href="images/icon.png" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <h1>Lista zadań</h1>
+    <div class="addNewTaskText">
+        <h3>Dodaj nowe zadanie</h3>
+    </div>
+    <div class="container">
+        <form class="container__form js-form">
+            <input placeholder="Co jest do zrobienia?" class="newTask js-newTask" type="text">
+            <button class="buttonAddTask">Dodaj zadanie</button>
+        </form>
+    </div>
+    <div class="taskPlace"></div>
+    <ul class="taskPlace__list js-tasks"></ul>
+
+</body>
+
+</html>
