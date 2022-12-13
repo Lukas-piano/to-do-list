@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "nagrać lekcje",
-            done: false,
-        },
-        {
-            content: "zjeść pierogi",
-            done: true,
-        },
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -69,15 +60,16 @@
     const onFormsSubmit = (event) => {
         event.preventDefault();
 
-        const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        const newTaskInput = document.querySelector(".js-newTask");
+        const newTaskContent = newTaskInput.value.trim();
 
 
-        if (newTaskContent === "") {
-            return;
+        if (newTaskContent !== "") {
+            addNewTask(newTaskContent);
+            newTaskInput.value = "";
         }
 
-        addNewTask(newTaskContent);
-        
+        newTaskInput.focus();
     };
 
     const init = () => {
