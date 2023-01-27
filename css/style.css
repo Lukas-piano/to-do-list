@@ -57,6 +57,7 @@ html {
     color: #fff;
     padding: 8px;
     font-size: 18px;
+    border: none;
 }
 
 @media (max-width: 767px) {
