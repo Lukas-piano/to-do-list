@@ -38,9 +38,9 @@ html {
 }
 
 .task {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     color: #333;
     padding: 5px;
     font-size: 18px;
@@ -76,6 +76,7 @@ html {
     width: 30px;
     height: 30px;
     border: none;
+    margin-right: 10px;
 }
 
 
