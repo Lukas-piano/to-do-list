@@ -34,7 +34,6 @@ html {
     padding: 5px;
     font-size: 18px;
     width: 80%;
-    margin-bottom: 6px;
 }
 
 .task {
@@ -66,6 +65,7 @@ html {
     }
     .newTask {
         flex-basis: 100%;
+        margin-bottom: 6px;
     }
 }
 
