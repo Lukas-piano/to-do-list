@@ -81,10 +81,15 @@ html {
     height: 30px;
     border: none;
     margin-right: 10px;
+    
 }
 
 .buttonDone:hover {
     background-color: hsl(135, 100%, 33%);
+}
+
+.buttonDone:active {
+    transform: scale(0.8);
 }
 
 .buttonRemove {
@@ -99,6 +104,10 @@ html {
 
 .buttonRemove:hover {
     background-color: hsl(355, 100%, 75%);
+}
+
+.buttonRemove:active {
+    transform: scale(0.8);
 }
 
 .taskPlace__list {
