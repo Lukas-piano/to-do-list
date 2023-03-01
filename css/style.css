@@ -59,6 +59,10 @@ html {
     border: none;
 }
 
+.buttonAddTask:hover {
+    background-color: hsl(187, 100%, 35%);
+}
+
 @media (max-width: 767px) {
     .buttonAddTask {
         flex-basis: 100%;
