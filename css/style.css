@@ -50,6 +50,10 @@ html {
     text-decoration: line-through;
 }
 
+tasks__item--hidden {
+    display: none;
+}
+
 
 .buttonAddTask {
     background-color: #007382;
@@ -115,4 +119,14 @@ html {
     padding: 20px;
     font-size: 18px;
     list-style-type: none;
+}
+
+.section__button {
+    border: none;
+    color: hsl(180, 100%, 25%);
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto auto;
 }
